@@ -40,8 +40,8 @@ import random
 #     time.sleep(0.1)
 from Adafruit_IO import MQTTClient
 
-AIO_USERNAME = "binu1206"
-AIO_KEY = "aio_mmPN09Njh8mqP7ie0FrmRLzPWz0l"
+AIO_USERNAME = ""
+AIO_KEY = ""
 
 def connected(client):
     print("Ket noi thanh cong ...")
