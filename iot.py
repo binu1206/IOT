@@ -3,7 +3,7 @@ from physical import *
 import  time
 from UI import *
 import random
-from uart import *
+# from uart import *
 
 # def randomValue(type):
 #     value = 0
@@ -41,7 +41,7 @@ from uart import *
 from Adafruit_IO import MQTTClient
 
 AIO_USERNAME = "binu1206"
-AIO_KEY = "aio_wcsG178tAV5Fim9gWXbepJl02xTZ"
+AIO_KEY = "aio_mmPN09Njh8mqP7ie0FrmRLzPWz0l"
 
 def connected(client):
     print("Ket noi thanh cong ...")
@@ -87,7 +87,6 @@ buttonOff.config(command=tat)
 # buttonOn.pack(pady=10)
 # buttonOff.pack(pady=10)
 while True:
-
     counter_sensor = counter_sensor - 1
     if counter_sensor <= 0:
         counter_sensor = 10
