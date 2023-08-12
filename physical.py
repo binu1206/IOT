@@ -4,7 +4,7 @@ import serial.tools.list_ports
 
 
 try:
-    ser = serial.Serial(port="COM4", baudrate=9600)
+    ser = serial.Serial(port="/dev/ttyAMA2", baudrate=9600)
     print("Connected")
 except:
     print("Can not open the port")
